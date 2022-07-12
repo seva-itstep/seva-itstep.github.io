@@ -80,11 +80,14 @@
     border: 1px solid black;
 }
 .goods-item:hover *{
-    opacity: 0;
+    visibility: hidden;
 }
 .goods-item:hover{
     background-size: cover;
-    transition: 1s ease-out;
+    transition: 2s;
+}
+.goods-item:hover a{
+    visibility: visible;
 }
 .item1:hover{
     background: url(../images/1.jpg) center;
